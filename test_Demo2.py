@@ -21,7 +21,7 @@ def test_secondCreditCard():
 @pytest.fixture()
 def setup():
     print("This will be executed first")
-
+    print("This will be executed first222")
 
 def test_fixtureDemo(setup):
     print("This will execute steps in fixtureDemo method")
